@@ -13,17 +13,11 @@
         <module>main-webapp</module>
         <module>report-service</module>
     </modules>
-
-    <parent>
-        <artifactId>article-app-parent</artifactId>
-        <groupId>gt.app</groupId>
-        <version>1.0</version>
-    </parent>
     
 <plugins>
     <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
+        <project.artifactId>maven-surefire-plugin</project.artifactId>
         <version>3.0.0-M3</version>
     </plugin>
 </plugins>
